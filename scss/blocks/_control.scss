@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Literata', serif;
+}
+:root{
+    // --border: 1px solid #000;
+    --margin: 0 auto;
+}
+.control{
+    width: 100%;
+    height: auto;
+    background: #F9F8FB;
+    margin: var(--margin);
+    &__mini{
+        max-width: 1220px;
+        height: auto;
+        margin: var(--margin);
+        border: var(--border);
+        background-image: url('../../img/bgimg.png');
+        background-repeat: no-repeat;
+    }
+}

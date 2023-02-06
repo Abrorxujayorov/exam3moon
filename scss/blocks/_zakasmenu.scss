@@ -1,0 +1,75 @@
+.zakas{
+    width: 100%;
+    height: auto;
+    &__title{
+    width: 100%;
+    height: auto; 
+    text-align: center;
+    margin: 30px 0px; 
+}
+
+    &__title h2{
+    color: rgba(91, 74, 88, 1);
+}
+    &__list{
+    width: 100%;
+    height: auto;
+    border: var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+&__item{
+    width: 400px;
+    height: auto;
+    display: flex;
+    gap: 2em;
+    margin-top: 30px;
+}
+&__mini h3{
+    font-size: 18px;
+    line-height: 24px;    
+    color: #5B4A58;
+}
+&__mini p{
+    font-size: 20px;
+    line-height: 150%;
+    color: #5B4A58;
+}
+&__con{
+    display: flex;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+&__btn{
+    padding: 4px 10px;
+    font-size: 15px;
+    border: none;
+}
+&__btn2{
+    padding: 4px 10px;
+    font-size: 15px;
+    border: none;
+    background: #6AAE55;
+    border-radius: 4px;
+}
+&__dabavet{
+    padding: 9px 30px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    background: #BDBDBD;
+    border-radius: 5px;
+    border: none;
+    background: #6AAE55;
+}
+&__dabavet:hover{
+    background: #fff;
+    color: #000;
+}
+
+&__dabavet:active{
+    background-color: aquamarine;
+}
+}

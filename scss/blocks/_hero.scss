@@ -1,0 +1,99 @@
+.hero{
+    width: 100%;
+    height: auto;
+    border: var(--border);
+    position: sticky;
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+    &__item a{
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #5B4A58;
+    }
+    &__select{
+        border: none;
+    }
+}
+.mybox__list{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border: var(--border);
+    left: 38em;
+    top: 15em;
+    visibility: hidden;
+}
+.mybox2{
+    visibility: visible;
+}
+.openlest{
+    width: 350px;
+    height: 350px;
+    border: var(--border);
+    position: absolute;
+    top: 100%;
+    left: 38%;
+    background: rgba(0, 0, 0, 0.518);
+    color: aliceblue;
+    border-radius: 15px;
+    list-style: none;
+    visibility: hidden;
+    &__item{
+        width: 100%;
+        border: 2px solid;
+        border-radius: 30px;
+    }
+} 
+.mover{
+    visibility: visible;
+}
+
+#dic{
+    position: absolute;
+    left: 38%;
+    top: 80%;
+    padding: 9px 16px;
+    background-color: aqua;
+    border-radius: 30px;
+    border: none;
+}
+
+
+
+
+.mobilne__hero{
+    display: flex;
+    display: none;
+    width: 100%;
+    justify-content: space-between;
+}
+.mobilne__menu{
+    display: flex;
+    height: 100%;
+    margin-top: 2.4rem;
+    align-items: center;
+    gap:1em;
+}
+.mobilne__menu i{
+    font-size: 16px;
+    margin-left: 5px;
+}
+.mobilne__menu p{
+    font-size: 12px;
+    line-height: 100%;
+    text-transform: uppercase;    
+    color: #5B4A58;
+}
+
+
+.valyuta{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
